@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
-    public List<AudioClip> audioClips; // Lista de sonidos
+    public List<AudioClip> audioClips;
     private AudioSource audioSource;
-    private bool isPaused = false; // Para detectar si el sonido está pausado
+    private bool isPaused = false; 
 
     void Start()
     {
